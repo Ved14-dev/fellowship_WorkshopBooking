@@ -1,20 +1,16 @@
-# **Workshop Booking**
+# FOSSEE Workshop Booking - UI/UX Redesign
 
-> This website is for coordinators to book a workshop(s), they can book a workshop based on instructors posts or can propose a workshop date based on their convenience.
+## Summer Fellowship 2026 Submission
 
+### Project Workflow & Development Log
 
-### Features
-* Statistics
-    1. Instructors Only
-        * Monthly Workshop Count
-        * Instructor/Coordinator Profile stats
-        * Upcoming Workshops
-        * View/Post comments on Coordinator's Profile
-    2. Open to All
-        * Workshops taken over Map of India
-        * Pie chart based on Total Workshops taken to Type of Workshops.
+#### 1. Initial Setup & Analysis
 
-* Workshop Related Features
-    > Instructors can Accept, Reject or Delete workshops based on their preference, also they can postpone a workshop based on coordinators request.
+I cloned the repository and analyzed the original repository structure.
+Initialized the repository with React environment using Vite and Tailwind CSS.
+All frontend dependencies were installed and pushed in the first commit.
 
-__NOTE__: Check docs/Getting_Started.md for more info.
+#### 2. Technical Challenge
+
+I tried to run the original Django 3.0.7 backend. Since we are using the latest version of Python 3.13, the server failed to start due to the removal of the old modules (distutils and cgi).
+So, I decided to use the existing FOSSEE website at https://python-workshops.fossee.in/page/home for reference and start updating the frontend UI/UX as changing the legacy modules would have consumed a lot of time.
