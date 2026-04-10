@@ -14,3 +14,6 @@ All frontend dependencies were installed and pushed in the first commit.
 
 I tried to run the original Django 3.0.7 backend. Since we are using the latest version of Python 3.13, the server failed to start due to the removal of the old modules (distutils and cgi).
 So, I decided to use the existing FOSSEE website at https://python-workshops.fossee.in/page/home for reference and start updating the frontend UI/UX as changing the legacy modules would have consumed a lot of time.
+
+Date: 10-04-2006
+Updated the frontend code and added frontend folder having loginview.jsx, navbar.jsx, app.jsx etc. Ran the project however the tailwind css is giving error. Hence the frontend is looking like a html project. Will update it in the next commit.
