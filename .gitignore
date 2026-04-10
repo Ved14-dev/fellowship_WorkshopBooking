@@ -42,10 +42,6 @@ db.sqlite3
 #Vim
 *.swp
 
-#images/gif
-*.png
-*.gif
-
 #React
 node_modules/
 dist/
